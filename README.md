@@ -36,5 +36,5 @@ Possible improvements:
 - more sophisticated validation method
 - tune more parameters in RF algorithm
 - look for outliers in the data
-- more plots: regression, predictions vs data, scatter (3D) plots of features
+- more plots: regression, predictions vs data, scatter (3D) plots of features, feature importance plot
 - try different ML algorithm?
