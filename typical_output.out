@@ -1,0 +1,33 @@
+Note: To plot figures, uncomment plotting functions.
+Learning without "no time travel" condtion.
+Reading test data.
+Predicting without "no time travel" condtion.
+Submission file prepared:  submission.csv
+Including "no time travel" condtion.
+Predicting WITH "no time travel" condtion.
+Year 		 Month 		 Learning set size
+2011 		 1 		 431
+2011 		 2 		 877
+2011 		 3 		 1323
+2011 		 4 		 1778
+2011 		 5 		 2234
+2011 		 6 		 2690
+2011 		 7 		 3146
+2011 		 8 		 3602
+2011 		 9 		 4055
+2011 		 10 		 4510
+2011 		 11 		 4966
+2011 		 12 		 5422
+2012 		 1 		 5875
+2012 		 2 		 6330
+2012 		 3 		 6785
+2012 		 4 		 7239
+2012 		 5 		 7695
+2012 		 6 		 8151
+2012 		 7 		 8607
+2012 		 8 		 9063
+2012 		 9 		 9519
+2012 		 10 		 9975
+2012 		 11 		 10430
+2012 		 12 		 10886
+Submission file prepared:  submission_condtion.csv
