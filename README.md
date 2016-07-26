@@ -4,6 +4,8 @@ Bike Sharing Demand -- Kaggle competition
 
 https://www.kaggle.com/c/bike-sharing-demand/
 
+To run: python bike.py
+
 Best results:
 - 0.38375 (without "no time travel" condition)
 - 0.42582 (with "no time travel" condition)
@@ -11,7 +13,7 @@ Best results:
 By "no time travel" (NTT) condition I mean one of the requirements of the competition:
 "Your model should only use information which was available prior to the time for which it is forecasting."
 
-NOTE: for the last month (12/2012), the results should be the same with/without NTT condtion (the same training set).
+NOTE: for the last month (12/2012), the results should be the same with/without NTT condition (the same training set).
 
 Battlefield log:
 - 'count' together: 0.47254
@@ -31,7 +33,7 @@ Files and folders:
 - typical_output.out
 
 Possible improvements:
-- more sofisticated validation method
+- more sophisticated validation method
 - tune more parameters in RF algorithm
 - look for outliers in data
 - more plots: regression, predictions vs data, scatter (3D) plots of features
