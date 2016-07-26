@@ -8,8 +8,8 @@ Best results:
 - 0.38375 (without "no time travel" condition)
 - 0.42582 (with "no time travel" condition)
 
-By "no time travel" condition I mean one of the requirements of the competition
-'Your model should only use information which was available prior to the time for which it is forecasting.'
+By "no time travel" (NTT) condition I mean one of the requirements of the competition:
+"Your model should only use information which was available prior to the time for which it is forecasting."
 
 Battlefield log:
 - 'count' together: 0.47254
@@ -21,7 +21,16 @@ Battlefield log:
 
 NOTE: to run the code you need to download data from Kaggle: train.csv and test.csv.
 
+Files and folders:
+- bike.py -- main code
+- ./plots
+- submission_best.csv -- data for the best submission without NTT condition
+- submission_condtion_best.csv  -- data for the best submission *with* NTT condition
+- typical_output.out
+
 Possible improvements:
 - more sofisticated validation method
 - tune more parameters in RF algorithm
+- look for outliers in data
+- more plots: regression, predictions vs data, scatter (3D) plots of features
 - try different ML algorithm?
