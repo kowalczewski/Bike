@@ -11,6 +11,8 @@ Best results:
 By "no time travel" (NTT) condition I mean one of the requirements of the competition:
 "Your model should only use information which was available prior to the time for which it is forecasting."
 
+NOTE: for the last month (12/2012), the results should be the same with/without NTT condtion (the same training set).
+
 Battlefield log:
 - 'count' together: 0.47254
 - 'casual', 'registered' separately: 0.46480
